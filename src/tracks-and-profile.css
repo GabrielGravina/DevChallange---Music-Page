@@ -1,0 +1,160 @@
+
+
+
+.tracks-and-profile{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 2rem;
+    width: 100%;
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.profile h1{
+    font-size: 1.3rem;
+    font-weight: 700;
+
+}
+
+.profile h2{
+    margin-top: .1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.profile h2:hover{
+    filter:brightness(70%);
+    transform: scale(1.03);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.profile p{
+    font-size: 0.8rem;
+}
+
+.profile-views{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 2rem 0;
+}
+
+.profile-views-content{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.profile-views-image img{
+    width: 70px;
+    height: 70px;
+    border-radius: .2rem;
+    object-fit: cover;
+}
+
+.profile-views-content-text{
+   
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row nowrap;
+}
+
+.profile-views-content-text h1{
+    font-weight: 500;
+
+}
+ .profile-text-p{
+    justify-content: flex-end;
+    align-self: center;
+
+    margin-left: 3rem;
+    text-align: start;
+    width: 100%;
+}
+
+ 
+.artist-info{
+    width: 100%;
+    margin-left: 1rem;
+
+}
+
+.artist-info p{
+    margin-top: .7rem;
+}
+
+
+
+div img:hover{
+    filter:saturate(200%);
+    filter:brightness(70%);
+    box-shadow:5px 10px 20px rgba(0,0,0,0.3);
+    transform: scale(1.02);
+    cursor: pointer;
+    
+    transition: .3s;
+
+}
+
+.tracks{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    overflow: auto;
+    height: 18rem;
+}
+.tracks h1{
+    display: inline;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.tracks h2{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.tracks h2:hover{
+    filter:brightness(70%);
+    transform: scale(1.03);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.tracks p{
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.tracks-content{
+    display: flex;
+
+    margin: 2rem 0 0rem 0;
+
+    
+}
+
+.tracks-info{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tracks-image{
+    
+}
+
+.tracks-image img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: .5rem;
+}
