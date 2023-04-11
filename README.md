@@ -1,9 +1,9 @@
 <br />
 <p align="center">
     <img width="1279" alt="image" src="https://user-images.githubusercontent.com/63823651/231035637-02ee209b-69b6-44e3-b68e-6f83f56d8ca2.png">
+   <p>Resultado do projeto </p>
 
-
-  <h3 align="center">Music Library Page by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a></h3>
+  <h3 align="center">Music Library Page Design by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a></h3>
  <br />
   <p align="center">
      Página de biblioteca de músicas
